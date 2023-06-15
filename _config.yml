@@ -107,8 +107,8 @@ butterfly_article_double_row:
 search:
   path: search.xml
   field: post
-  content: true
-  template: ./search.xml
+  format: html
+  limit: 10000
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
