@@ -3,6 +3,7 @@ title: java虚拟机
 cover: >-
   https://github.com/jjnian/images/blob/main/blog/%E7%81%AB%E8%BD%A6%E7%AB%99.png?raw=true
 date: 2023-06-24 20:06:09
+comments: true
 ---
 
 ## Java虚拟机

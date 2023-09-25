@@ -3,6 +3,7 @@ title: pgsql
 cover: >-
   https://images.pexels.com/photos/1120236/pexels-photo-1120236.jpeg?auto=compress&cs=tinysrgb&w=800
 date: 2023-06-23 18:11:31
+comments: true
 ---
 
 

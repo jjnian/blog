@@ -1,6 +1,7 @@
 ---
 title: 纪锐鑫
 description: "Welcome to Hexo! This is your very first post."
+comments: true
 cover: https://raw.githubusercontent.com/jjnian/images/main/blog/%E6%83%85%E4%BE%A3%E6%A0%91.png
 ---
 
