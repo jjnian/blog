@@ -9,8 +9,8 @@ nav:
 
 # Menu 目錄
 menu:
-  首页: / || fas fa-home
-  时间线: /archives/ || fas fa-archive
+  主页: / || fa fa-home faa-bounce animated
+  时间线: /archives/ || fas fa-archive 
   标签: /tags/ || fas fa-tags
   分类: /categories/ || fas fa-folder-open
   休闲||fas fa-list:
@@ -18,7 +18,7 @@ menu:
     电影: /movies/ || fas fa-video
   在线工具: /tools/
   友链: /link/ || fas fa-link
-  关于我: /about/ || fas fa-heart
+  关于我: /about/ || fas fa-heart animated
 
 # Code Blocks (代碼相關)
 # --------------------------------------
@@ -771,7 +771,7 @@ subtitle:
 
 # Loading Animation (加載動畫)
 preloader:
-  enable: false
+  enable: true
   # source
   # 1. fullpage-loading
   # 2. pace (progress bar)
@@ -1008,3 +1008,25 @@ wowjs:
   animate_css: https://npm.elemecdn.com/hexo-butterfly-wowjs/lib/animate.min.css
   wow_js: https://npm.elemecdn.com/hexo-butterfly-wowjs/lib/wow.min.js
   wow_init_js: https://npm.elemecdn.com/hexo-butterfly-wowjs/lib/wow_init.js
+
+
+# Live2D
+## https://github.com/EYHN/hexo-helper-live2d
+live2d:
+  enable: false
+  scriptFrom: local
+  pluginRootPath: live2dw/
+  pluginJsPath: lib/
+  pluginModelPath: assets/
+  tagMode: false
+  log: false
+  model:
+    use: live2d-widget-model-wanko
+  display:
+    position: right
+    width: 100
+    height: 200
+  mobile:
+    show: true
+  react:
+    opacity: 0.7
